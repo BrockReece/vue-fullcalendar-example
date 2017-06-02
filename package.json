@@ -12,7 +12,7 @@
   "dependencies": {
     "moment": "^2.18.1",
     "vue": "^2.2.2",
-    "vue-full-calendar": "^1.1.0"
+    "vue-full-calendar": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

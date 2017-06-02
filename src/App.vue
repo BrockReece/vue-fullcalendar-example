@@ -83,6 +83,7 @@ export default {
 </script>
 
 <style>
+@import '~fullcalendar/dist/fullcalendar.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
