@@ -40,6 +40,9 @@ export default {
         eventClick: (event) => {
           this.selected = event;
         },
+        locale: 'fa',
+        isJalaali: true,
+        isRTL: true,
       },
 
       selected: {},

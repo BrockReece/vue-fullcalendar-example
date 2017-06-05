@@ -23,7 +23,8 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
-      "window.jQuery": "jquery"
+      "window.jQuery": "jquery",
+      moment: "moment-jalaali",
     })
   ],
   resolve: {
@@ -31,6 +32,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'fullcalendar$': resolve('src/fullcalendar.js'),
     }
   },
   module: {
