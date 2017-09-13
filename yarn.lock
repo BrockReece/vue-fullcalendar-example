@@ -4533,9 +4533,9 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-"vue-full-calendar@https://github.com/CroudSupport/vue-fullcalendar.git":
+vue-full-calendar@^2.1.0:
   version "2.1.0"
-  resolved "https://github.com/CroudSupport/vue-fullcalendar.git#13954f43cde3c85a0bd93f6a0bcac72a8ae2c577"
+  resolved "https://registry.yarnpkg.com/vue-full-calendar/-/vue-full-calendar-2.1.0.tgz#4bba98ec332eb054db6c78813e7f77e9fae5de13"
   dependencies:
     fullcalendar "^3.3.0"
     lodash.defaultsdeep "^4.6.0"

@@ -12,7 +12,7 @@
   "dependencies": {
     "moment": "^2.18.1",
     "vue": "^2.4.2",
-    "vue-full-calendar": "https://github.com/CroudSupport/vue-fullcalendar.git"
+    "vue-full-calendar": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
