@@ -57,7 +57,7 @@ export default {
     },
 
     eventSelected(event) {
-      this.selected = event;
+      this.selected = { ...event, source: {} };
     },
 
     eventCreated(...test) {
@@ -78,6 +78,12 @@ export default {
         },
       ];
     },
+  },
+
+  mounted() {
+    setTimeout(() => {
+      this.$refs.calendar.fireMethod('next');
+    }, 1000);
   },
 };
 </script>
